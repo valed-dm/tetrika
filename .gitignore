@@ -1,6 +1,10 @@
 # imac
 .DS_Store
 
+# tetrika
+apicache-py3/
+throttle.ctrl
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
