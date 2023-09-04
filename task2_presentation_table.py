@@ -1,4 +1,4 @@
-"""Parses main table from wiki page as example"""
+"""Parses main table from wiki page as simple example"""
 
 import io
 
@@ -10,7 +10,7 @@ url = "https://ru.wikipedia.org/wiki/Категория:Животные_по_а
 
 
 if __name__ == "__main__":
-    r = requests.get(url)
+    r = requests.get(url, timeout=10)
     website = io.StringIO(r.text)
     # for string in website:
     #     if 'table role="presentation"' in string:
