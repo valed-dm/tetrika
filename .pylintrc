@@ -1,0 +1,11 @@
+[MASTER]
+disable=
+     C0103, # Argument name "f" doesn't conform to snake_case naming style (invalid-name)
+     E0401, # Unable to import 'pandas' (import-error)
+     R0913, # Too many arguments (6/5) (too-many-arguments)
+
+
+[BASIC]
+
+[FORMAT]
+max-line-length=130
