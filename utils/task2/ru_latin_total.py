@@ -1,7 +1,7 @@
 """Creates general parsing result info data"""
 
 
-from utils import is_latin
+from utils.task2 import is_latin
 
 
 def ru_latin_total(beasts):

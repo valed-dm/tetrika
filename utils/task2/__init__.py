@@ -1,3 +1,5 @@
+"""Imports for task2"""
+
 from .cat_counter import cat_counter
 from .get_beasts_csv import get_beast_csv
 from .get_wiki_pages import get_wiki_pages
