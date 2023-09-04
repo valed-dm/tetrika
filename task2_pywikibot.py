@@ -1,6 +1,12 @@
 """Creates outputs/beasts.csv"""
 
-from utils import cat_counter, get_beast_csv, get_wiki_pages, is_latin, ru_latin_total
+from utils.task2 import (
+    cat_counter,
+    get_beast_csv,
+    get_wiki_pages,
+    is_latin,
+    ru_latin_total,
+)
 
 
 def main():
