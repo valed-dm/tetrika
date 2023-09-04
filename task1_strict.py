@@ -1,8 +1,13 @@
+"""Arguments type checker"""
+
 import inspect
 
 
 def strict(f):
+    """Args type check decorator"""
     def wrapper(*args):
+        """Args type check logic here """
+
         idx = 0
         data = [*args]
         f_sig = inspect.signature(f)
@@ -22,6 +27,8 @@ def strict(f):
 
 @strict
 def sum_two(a: int, b: int) -> int:
+    """Simple test func"""
+
     return a + b
 
 
